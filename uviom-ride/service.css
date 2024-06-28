@@ -1,0 +1,105 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.button-bold{
+    background-color: #F1A350;
+    color: #252525;
+}
+
+
+
+.bg-css{
+    background-color: rgb(234, 185, 185);
+}
+
+.hero{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("img/service-hiro.svg");
+    height:100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#nave-link{
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+#nave-link:hover{
+    color:#F1A350;
+    padding: 20px;
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+#nave-link-bold{
+    color:#F1A350;
+    padding: 20px;
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+.btn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+.nev-logo{
+    margin-right: 90px;
+}
+
+.hiro-content{
+    width: 40%;
+    margin-top: 11%;
+}
+
+.hiro-content h6{
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffffffc8;
+    line-height: 35px;
+    
+}
+
+.hiro-content h1{
+    font-size: 50px;
+    color: #fff;
+    line-height: 35px;
+    
+}
+
+.fecher-area{
+    padding: 100px 0px;
+}
+.ing-100{
+    width: 60%;
+}
+
+.service-aria{
+    padding: 0px 50px;
+ }
+ 
+ .text-aria{
+     width: 40%;
+     
+ }
+
+ footer{
+    margin-top: 80px;
+    background: #E9EFF5;
+    
+}
+h6{
+    color: #141421da;
+}
+.footer-text{
+    color:#141421a3 ;
+}
+.link a{
+    color: #6984A5;
+
+}

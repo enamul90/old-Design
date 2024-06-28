@@ -1,0 +1,258 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:#fff;
+    font-family: 'Roboto', sans-serif;
+}
+.button-bold{
+    background-color: #F1A350;
+    color: #252525;
+}
+
+
+
+.bg-css{
+    background-color: rgb(234, 185, 185);
+}
+
+
+.hero{
+    background: #E9EFF5;
+    height:auto;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#nave-link{
+    color: rgb(24, 24, 24);
+    padding: 20px;
+    font-weight: 500;
+}
+#nave-link:hover{
+    color:#F1A350;
+    padding: 20px;
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+#nave-link-bold{
+    color:#F1A350;
+    padding: 20px;
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+.btn a{
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+    margin-left: 10px;
+    
+}
+.nev-logo{
+    margin-right: 90px;
+}
+
+.text-box{
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+.ki-color{
+    color:#F1A350;
+}
+.light-text{
+    font-weight: 300;
+    letter-spacing:.5px;
+    
+}
+
+.home-hiro-detail{
+    width: 80%;
+    font-size: 20px;
+    color: rgb(40, 40, 40);
+
+}
+.hiro-button{
+    max-height: 40px;
+    margin-bottom: 30px;
+}
+
+.hiro-box{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.hiro-right{
+    width: 112%;
+    margin-left: -100px;
+    margin-top: 5%;
+
+}
+
+
+.row-align{
+    margin: 100px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.feature-text{
+    color:#6984A5;
+}
+.feature-bold{
+    width: 80%;
+    color: #141421;
+}
+.bold-color{
+    color: #6984A5;
+}
+.feature-image{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+
+}
+.safty{
+    background-color: #E9EFF5;
+}
+.left-img{
+    background-image: url(img/fature-bg.png);
+    background-position: center;
+    background-size: cover;
+    
+    
+
+}
+
+.img-group{
+    padding: 80px 30px;
+    
+}
+
+.img-group img{
+    width: 150px;
+    margin-left: auto;
+    display: block;
+    padding: 20px;
+}
+.Right-had{
+
+    line-height: 60px;
+}
+.right-pp{
+    font-weight: 200px;
+    line-height: 35px;
+    margin-top: 30px;
+}
+.text-area{
+    width: 95%;
+    margin-left: auto;
+    margin-top: 24%;
+    
+}
+.testimonials-hed{
+    text-align:center ;
+    letter-spacing: 5px;
+}
+
+.mini-coon{
+   width: 50px; 
+   display:block;
+   margin-left: auto;
+}
+.mini-con{
+   width: 50px; 
+}
+
+
+.img-big{
+    width:158px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.right-arrow{
+    display: block;
+    margin-left: auto;
+}
+
+.btn-1 {
+    width: 150px;
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F1A350;
+    border-radius: 30px;
+    border-color: #F1A350;
+    margin-top: -20px;
+    vertical-align: bottom;
+}
+.text-center{
+    margin: auto;
+}
+
+.about-company{
+    max-width: 500px;
+
+}
+.about-image{
+    background-image: url(img/about-image.png);
+    background-position: center;
+    background-size: cover;
+    height: 305px;
+    width: auto;
+    color: #fff;
+    
+    
+}
+
+.about-image-2{
+    background-image: url(img/Dhaka.png);
+    background-position: center;
+    background-size: cover;
+    height: 305px;
+    width: auto;
+    color: #fff;
+    
+    
+}
+
+
+.news-img{
+    height: 260px;
+    width: 98%;
+}
+
+.news-button{
+    background-color: #6984A5;
+    color: #fff;
+    width: 130px;
+    height: 40px;
+    border: #6984A5;
+    border-radius: 50px;
+
+}
+
+footer{
+    background: #E9EFF5;
+    
+}
+h6{
+    color: #141421da;
+}
+.footer-text{
+    color:#141421a3 ;
+}
+.link a{
+    color: #6984A5;
+
+}
+
+@media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+    }
+  }

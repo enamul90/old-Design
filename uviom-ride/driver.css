@@ -1,0 +1,128 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: rgb(255, 255, 255);
+    
+
+}
+.demo-back{
+    height: 100px;
+    width: auto;
+    background-color: #6781A0;
+}
+
+.hero{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("img/hiro-img.png");
+    height:100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#nave-link{
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+#nave-link:hover{
+    color: #F1A350;
+    padding: 20px;
+    font-weight: bold;
+}
+
+#nave-link-bold{
+    color:#F1A350;
+    padding: 20px;
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+.nev-logo{
+    margin-right: 90px;
+}
+.ki-color{
+    color:#F1A350;
+}
+
+.hero-font{
+    color: #fff;
+}
+
+.form-area{
+
+    width: 80%;
+    padding:35px 30px;
+    background-color: rgba(255, 255, 255, 0.87);
+    border-radius: 5px;
+    margin-left: auto;
+    border: 1.5px solid #F1A350;
+    margin-top:8%;
+}
+.btn-1{
+    width: 40%;
+    margin-top: 10px;
+    background-image: radial-gradient(50% 50% at 50% 50%, #6781A0 0%, #6984A5 100%);
+
+}
+@media only screen and (max-width: 700px){
+
+    .form-area{
+        width: 100%;
+    }
+   
+}
+
+.partner{
+    background: #e9eff5d1;
+    padding-top:40px;
+    padding-bottom:40px;
+    
+}
+.img-size{
+    width: 90%;
+    margin-left: auto;
+
+}
+.service-aria{
+   padding: 0px 50px;
+}
+
+.text-aria{
+    width: 40%;
+    
+}
+.faq-text:hover{
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.left-box{
+    background-color:#E9EFF5;
+    border-radius: 5px;
+}
+.faq-text-active{
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+footer{
+    background: #E9EFF5;
+    
+}
+h6{
+    color: #141421da;
+}
+.footer-text{
+    color:#141421a3 ;
+}
+.link a{
+    color: #6984A5;
+
+}

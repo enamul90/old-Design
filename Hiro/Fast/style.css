@@ -1,0 +1,143 @@
+
+body{
+ margin: 0px;
+ padding: 0px;  
+ font-family: 'Poppins', sans-serif; 
+ 
+}
+.hiro{
+    display:flex ;
+    box-sizing: border-box;
+    width: 100%;
+    margin:0px auto;
+    min-height: 100vh;
+    background-image: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(162,156,147,1) 100%);
+    padding: 10px 8%;
+    position: relative;
+    align-items: center;
+
+
+}
+nav{
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 10px 8%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 2;
+    background-color: #4d13fb8b;
+
+}
+nav img{
+    width: 160px;
+}
+nav ul{
+    
+    flex: 1;
+    list-style: none;
+    text-align: center;
+
+}
+nav li{
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+
+}
+.text-box{
+    width: 50%;
+}
+
+.text-box h1{
+    font-size: 80px;
+    font-weight:bolder;
+    margin-bottom: -5px;
+    font-family: 'Satisfy', cursive;
+    color: #fff;
+    
+}
+
+.text-box p{
+
+    font-size: 20px;
+    color: #f4f5f8a1;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+.text-box button{
+    padding: 12px 25px;
+    margin-right: 20px;
+    border-radius: 10px;
+    color: #4d13fb;
+    font-size: 15px;
+    background-color: #ffffff;
+    border-width: 0px;
+}
+
+
+
+.text-box :last-child{
+    background-color: #926eff;
+    color: #231b1b;
+
+}
+.profile-image{
+    width: 350px;
+    position: absolute;
+    top: 22%;
+    right: 22%;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    /* transform: rotate(45deg); */
+    
+}
+.slide-icon{
+    display: flex;
+    transform: rotate(90deg);
+    position:absolute ;
+    right: 8%;
+    
+    
+}
+
+
+.slide-icon h5{
+    color: #fff;
+    margin-right: 50px;
+    letter-spacing: 2px;
+}
+.slide-icon img{
+    transform: rotate(-90deg);
+
+}
+
+#firoz{
+    height: 100vh;
+    background-color: #4d13fb;
+}
+#bow{
+    height: 100vh;
+    background-color: #382c5c;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+
+}
+
+.image{
+    background-image: url(images/Saidur.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
